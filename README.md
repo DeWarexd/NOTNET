@@ -1,4 +1,4 @@
-# Advanced Discord RAT (ADR) 🐍💬
+# NOTNET RAT (ADR) 🐍💬
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/DeWarexd/NOTNET/refs/heads/main/standard.gif" alt="ADR Demo Animation" width="700"/> 
