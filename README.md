@@ -66,17 +66,10 @@ This RAT provides a range of functionalities controllable via simple Discord com
 ---
 
 ## 📦 Installation & Setup
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/your_username/your_repository_name.git
-    cd your_repository_name
-    ```
-
-2.  **Install Dependencies:**
+1.  **Install Dependencies:**
     Create a `requirements.txt` file with the following content:
     ```txt
-    discord.py>=2.0.0 # Or the specific version you used
+    discord.py>=2.0.0
     requests
     Pillow
     psutil
@@ -87,7 +80,7 @@ This RAT provides a range of functionalities controllable via simple Discord com
     ```
     *(Ensure you have Python 3 and Pip installed)*
 
-3.  **Create a Discord Bot:**
+2.  **Create a Discord Bot:**
     *   Go to the [Discord Developer Portal](https://discord.com/developers/applications).
     *   Create a "New Application".
     *   Go to the "Bot" tab.
@@ -95,16 +88,16 @@ This RAT provides a range of functionalities controllable via simple Discord com
     *   **Crucially:** Under "Privileged Gateway Intents", enable the **"Message Content Intent"**. Without this, the bot cannot read commands!
     *   Copy the Bot Token (Click "Reset Token" if needed, and copy the new one immediately). **Keep this token secure!**
 
-4.  **Configure the Script:**
-    *   Open the `rests.py` (or your main script file) in a text editor.
+3.  **Configure the Script:**
+    *   Open the `notnet.py` (or your main script file) in a text editor.
     *   Find the `TOKEN` variable near the top:
       ```python
-      TOKEN: str = 'YOUR_DISCORD_BOT_TOKEN_HERE' # 🔴 PASTE YOUR TOKEN!
+      TOKEN: str = 'ENTER_TOKEN_HERE' # 🔴 PASTE YOUR TOKEN!
       ```
-    *   Replace `'YOUR_DISCORD_BOT_TOKEN_HERE'` with the actual token you copied.
+    *   Replace `'ENTER_TOKEN_HERE'` with the actual token you copied.
     *   *(Optional)* You can also change the `PREFIX` (default is `/`) or `DEFAULT_PERSISTENCE_FILENAME` if desired.
 
-5.  **Add Bot to Your Server:**
+4.  **Add Bot to Your Server:**
     *   Go back to the Discord Developer Portal -> Your Application -> "OAuth2" -> "URL Generator".
     *   Select the `bot` scope.
     *   Under "Bot Permissions", select `Administrator` (easiest way) or individually select necessary permissions (Send Messages, Read Message History, Embed Links, Attach Files, etc.). **Administrator is required for full functionality without manually checking every needed permission.**
@@ -116,11 +109,11 @@ This RAT provides a range of functionalities controllable via simple Discord com
 ## ▶️ Usage
 
 1.  **Deploy on Target:**
-    *   Transfer the configured `rests.py` script (and `requirements.txt` if Python isn't pre-installed with these libs) or a compiled `.exe` (using tools like PyInstaller) to the target machine.
+    *   Transfer the configured `notnet.py` script (and `requirements.txt` if Python isn't pre-installed with these libs) or a compiled `.exe` (using tools like PyInstaller) to the target machine.
     *   **Reminder:** ONLY do this on machines you have EXPLICIT permission to test.
 2.  **Run on Target:**
     *   Execute the script/executable on the target machine.
-      *   If running the script: `python rests.py`
+      *   If running the script: `python notnet.py`
       *   If running an executable: Double-click `rests.exe` (or however you compiled it).
     *   If running on Windows, it will attempt to hide itself and set up persistence.
 3.  **Control via Discord:**
