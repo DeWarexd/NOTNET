@@ -1,4 +1,4 @@
-# NOTNET RAT (ADR) 🐍💬
+# NOTNET RAT 🐍💬
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/DeWarexd/NOTNET/refs/heads/main/standard.gif" alt="ADR Demo Animation" width="700"/> 
