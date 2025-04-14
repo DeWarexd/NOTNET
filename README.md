@@ -1,7 +1,12 @@
 # Advanced Discord RAT (ADR) 🐍💬
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/your_username/your_repository_name/main/assets/logo_ascii.png" alt="ASCII Logo" width="400"/>
+ _______   __________________________  ______________________
+ \      \  \_____  \__    ___/\      \ \_   _____/\__    ___/
+ /   |   \  /   |   \|    |   /   |   \ |    __)_   |    |   
+/    |    \/    |    \    |  /    |    \|        \  |    |   
+\____|__  /\_______  /____|  \____|__  /_______  /  |____|   
+        \/         \/                \/        \/            
   <br/>
   <i>(You might want to create a simple graphic or use the ASCII art if you prefer)</i>
   <br/>
