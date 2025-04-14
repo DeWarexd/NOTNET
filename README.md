@@ -1,14 +1,6 @@
 # Advanced Discord RAT (ADR) 🐍💬
 
 <p align="center">
- _______   __________________________  ______________________
- \      \  \_____  \__    ___/\      \ \_   _____/\__    ___/
- /   |   \  /   |   \|    |   /   |   \ |    __)_   |    |   
-/    |    \/    |    \    |  /    |    \|        \  |    |   
-\____|__  /\_______  /____|  \____|__  /_______  /  |____|   
-        \/         \/                \/        \/            
-  <br/>
-  <i>(You might want to create a simple graphic or use the ASCII art if you prefer)</i>
   <br/>
   <b>A feature-rich Remote Administration Tool controlled via Discord, written in Python.</b>
   <br/>
