@@ -1,7 +1,7 @@
 # Advanced Discord RAT (ADR) 🐍💬
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DeWarexd/NOTNET/main/assets/standart.gif" alt="ADR Demo Animation" width="400"/> 
+  <img src="https://raw.githubusercontent.com/DeWarexd/NOTNET/refs/heads/main/standard.gif" alt="ADR Demo Animation" width="400"/> 
   <br/>
   <b>A feature-rich Remote Administration Tool controlled via Discord, written in Python.</b>
   <br/>
